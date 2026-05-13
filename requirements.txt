@@ -1,0 +1,9 @@
+anthropic
+python-dotenv
+langchain
+langchain-anthropic
+langchain-openai
+chromadb
+crewai
+streamlit
+openai
