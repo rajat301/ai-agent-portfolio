@@ -18,7 +18,7 @@ Layer 2 — Metrics Engine:
 
 Layer 3 — AI Interpretation:
   property_analyst.py   Claude Haiku, structured JSON output
-  NOT BUILT YET — next task
+  BUILT — Claude interpretation layer complete
 
 Governance:
   logs/audit.py         JSONL audit trail
@@ -45,12 +45,15 @@ DONE:
   ✅ Audit logging (logs/audit.py)
   ✅ 18 unit tests (tests/test_metrics.py)
   ✅ .env.example
+  ✅ property_analyst.py — Claude interpretation layer
+  ✅ 05_property_analyser.py — full 3-layer pipeline wiring
 
 NEXT:
-  ⬜ property_analyst.py — Claude interpretation layer
-  ⬜ Wire all 3 layers → 05_property_analyser.py
-  ⬜ End-to-end test on 3 properties
-  ⬜ Commit + update README
+  ⬜ Fix JSON parse error (in progress)
+  ⬜ Run full pipeline test — all 3 properties
+  ⬜ Commit clean working pipeline
+  ⬜ Script 6 — context management
+  ⬜ Week 2 — LangGraph
 
 ## Tech Stack
 Python 3.x, pytest, SQLite, anthropic SDK
