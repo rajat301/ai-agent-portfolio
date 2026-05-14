@@ -1,0 +1,32 @@
+[
+  {
+    "address": "14 Kangaroo Point Rd",
+    "suburb": "Kangaroo Point",
+    "price": 950000,
+    "bedrooms": 3,
+    "rental_yield_estimate": 3.8,
+    "investment_score": 7,
+    "recommendation": "buy",
+    "one_line_reason": "Established inner-city suburb with strong growth potential, reasonable price point for 3-bed property, and solid rental demand from young professionals and families."
+  },
+  {
+    "address": "88 Logan Rd",
+    "suburb": "Woolloongabba",
+    "price": 620000,
+    "bedrooms": 2,
+    "rental_yield_estimate": 4.2,
+    "investment_score": 7,
+    "recommendation": "buy",
+    "one_line_reason": "Strong Brisbane inner-city location with solid rental demand, moderate price point for 2-bed, and reasonable yield potential in growing precinct"
+  },
+  {
+    "address": "5 Newstead Ave",
+    "suburb": "Newstead",
+    "price": 1100000,
+    "bedrooms": 4,
+    "rental_yield_estimate": 3.2,
+    "investment_score": 7,
+    "recommendation": "buy",
+    "one_line_reason": "Strong suburban location with 4-bedroom appeal, solid rental demand, and reasonable yield in established area"
+  }
+]
