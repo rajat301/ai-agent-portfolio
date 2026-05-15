@@ -1,0 +1,7 @@
+langchain
+langchain-anthropic
+langchain-community
+langgraph
+chromadb
+ragas
+langsmith
