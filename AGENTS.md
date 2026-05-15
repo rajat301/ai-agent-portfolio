@@ -22,7 +22,7 @@ Layer 3 — AI Interpretation:
 
 Governance:
   logs/audit.py         JSONL audit trail
-  tests/test_metrics.py 18 pytest unit tests
+  tests/test_metrics.py 29 pytest unit tests
 
 ## Coding Rules — ALWAYS Follow
 1. Comment every line: what AND why
@@ -40,20 +40,30 @@ RBA rate:         4.10% March 2026
 
 ## Current State
 DONE:
+  ✅ Script 1 — hello Claude (01_hello_claude.py)
+  ✅ Script 2 — chat with memory (02_chat_with_memory.py)
+  ✅ Script 3 — Claude with tools (03_claude_with_tools.py)
+  ✅ Script 4 — streaming (04_streaming.py)
+  ✅ Script 5 — full 3-layer property analyser pipeline (05_property_analyser.py)
+  ✅ Script 6 — context management (06_context_management.py)
   ✅ data/ foundation layer (abs_client, cache, benchmarks)
   ✅ Input validation + security (validator.py)
   ✅ Audit logging (logs/audit.py)
-  ✅ 18 unit tests (tests/test_metrics.py)
+  ✅ 29 unit tests passing (tests/test_metrics.py)
   ✅ .env.example
   ✅ property_analyst.py — Claude interpretation layer
-  ✅ 05_property_analyser.py — full 3-layer pipeline wiring
+  ✅ JSON parse error fixed (commit cbcd029)
+  ✅ Full pipeline tested — all 3 properties analysed successfully
+  ✅ Context management demonstrated — token counting, summarisation, sliding window
 
 NEXT:
-  ⬜ Fix JSON parse error (in progress)
-  ⬜ Run full pipeline test — all 3 properties
-  ⬜ Commit clean working pipeline
-  ⬜ Script 6 — context management
-  ⬜ Week 2 — LangGraph
+  ⬜ Week 2 — LangGraph foundations
+  ⬜ Week 2 — LangGraph human-in-the-loop
+  ⬜ Week 2 — RAG Part 1: chunking
+  ⬜ Week 2 — RAG Part 2: embeddings
+  ⬜ Week 2 — RAG Part 3: full pipeline
+  ⬜ Week 2 — RAG evaluation (RAGAS)
+  ⬜ Week 2 — RAG on Databricks
 
 ## Tech Stack
 Python 3.x, pytest, SQLite, anthropic SDK
