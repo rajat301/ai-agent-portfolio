@@ -55,10 +55,12 @@ DONE:
   ✅ JSON parse error fixed (commit cbcd029)
   ✅ Full pipeline tested — all 3 properties analysed successfully
   ✅ Context management demonstrated — token counting, summarisation, sliding window
+  ✅ Script 7 — LangChain basics, LCEL, memory, tools, bridge to LangGraph (07_langchain_basics.py)
+  ✅ Script 8 — LangGraph foundations, state, nodes, edges, checkpointing (08_langgraph_foundations.py)
 
 NEXT:
-  ⬜ Week 2 — LangGraph foundations
-  ⬜ Week 2 — LangGraph human-in-the-loop
+  ⬜ Script 9 — LangGraph human-in-the-loop (interrupt_before, approval gates)
+  ⬜ Week 2 — RAG Part 1: chunking
   ⬜ Week 2 — RAG Part 1: chunking
   ⬜ Week 2 — RAG Part 2: embeddings
   ⬜ Week 2 — RAG Part 3: full pipeline
